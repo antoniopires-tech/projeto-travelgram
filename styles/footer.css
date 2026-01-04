@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  gap: 24px;
+  padding-block: 24px;
+  color: var(--text-color-secondary);
+  font: var(--text);
+}
+
+footer span {
+  list-style: none;
+}
+
+footer span:nth-child(1) {
+  margin-right: auto;
+}
